@@ -1,0 +1,311 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04EE30C417557F960038817B /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04EE30C317557F960038817B /* Cocoa.framework */; };
+		04EE30CE17557F960038817B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 04EE30CC17557F960038817B /* InfoPlist.strings */; };
+		04EE30D017557F960038817B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EE30CF17557F960038817B /* main.m */; };
+		04EE30D417557F960038817B /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 04EE30D217557F960038817B /* Credits.rtf */; };
+		04EE30D717557F960038817B /* FlickrAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EE30D617557F960038817B /* FlickrAppDelegate.m */; };
+		04EE30DA17557F960038817B /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04EE30D817557F960038817B /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		04EE30C017557F960038817B /* FlickrApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlickrApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04EE30C317557F960038817B /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		04EE30C617557F960038817B /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		04EE30C717557F960038817B /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		04EE30C817557F960038817B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		04EE30CB17557F960038817B /* FlickrApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FlickrApp-Info.plist"; sourceTree = "<group>"; };
+		04EE30CD17557F960038817B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		04EE30CF17557F960038817B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04EE30D117557F960038817B /* FlickrApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FlickrApp-Prefix.pch"; sourceTree = "<group>"; };
+		04EE30D317557F960038817B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		04EE30D517557F960038817B /* FlickrAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlickrAppDelegate.h; sourceTree = "<group>"; };
+		04EE30D617557F960038817B /* FlickrAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlickrAppDelegate.m; sourceTree = "<group>"; };
+		04EE30D917557F960038817B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04EE30BD17557F960038817B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04EE30C417557F960038817B /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04EE30B717557F960038817B = {
+			isa = PBXGroup;
+			children = (
+				04EE30C917557F960038817B /* FlickrApp */,
+				04EE30C217557F960038817B /* Frameworks */,
+				04EE30C117557F960038817B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04EE30C117557F960038817B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04EE30C017557F960038817B /* FlickrApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04EE30C217557F960038817B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				04EE30C317557F960038817B /* Cocoa.framework */,
+				04EE30C517557F960038817B /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		04EE30C517557F960038817B /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				04EE30C617557F960038817B /* AppKit.framework */,
+				04EE30C717557F960038817B /* CoreData.framework */,
+				04EE30C817557F960038817B /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		04EE30C917557F960038817B /* FlickrApp */ = {
+			isa = PBXGroup;
+			children = (
+				04EE30D517557F960038817B /* FlickrAppDelegate.h */,
+				04EE30D617557F960038817B /* FlickrAppDelegate.m */,
+				04EE30D817557F960038817B /* MainMenu.xib */,
+				04EE30CA17557F960038817B /* Supporting Files */,
+			);
+			path = FlickrApp;
+			sourceTree = "<group>";
+		};
+		04EE30CA17557F960038817B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04EE30CB17557F960038817B /* FlickrApp-Info.plist */,
+				04EE30CC17557F960038817B /* InfoPlist.strings */,
+				04EE30CF17557F960038817B /* main.m */,
+				04EE30D117557F960038817B /* FlickrApp-Prefix.pch */,
+				04EE30D217557F960038817B /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04EE30BF17557F960038817B /* FlickrApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04EE30DD17557F960038817B /* Build configuration list for PBXNativeTarget "FlickrApp" */;
+			buildPhases = (
+				04EE30BC17557F960038817B /* Sources */,
+				04EE30BD17557F960038817B /* Frameworks */,
+				04EE30BE17557F960038817B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlickrApp;
+			productName = FlickrApp;
+			productReference = 04EE30C017557F960038817B /* FlickrApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04EE30B817557F960038817B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Flickr;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = Mundusch;
+			};
+			buildConfigurationList = 04EE30BB17557F960038817B /* Build configuration list for PBXProject "FlickrApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 04EE30B717557F960038817B;
+			productRefGroup = 04EE30C117557F960038817B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04EE30BF17557F960038817B /* FlickrApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04EE30BE17557F960038817B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04EE30CE17557F960038817B /* InfoPlist.strings in Resources */,
+				04EE30D417557F960038817B /* Credits.rtf in Resources */,
+				04EE30DA17557F960038817B /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04EE30BC17557F960038817B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04EE30D017557F960038817B /* main.m in Sources */,
+				04EE30D717557F960038817B /* FlickrAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		04EE30CC17557F960038817B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04EE30CD17557F960038817B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		04EE30D217557F960038817B /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04EE30D317557F960038817B /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		04EE30D817557F960038817B /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04EE30D917557F960038817B /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04EE30DB17557F960038817B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		04EE30DC17557F960038817B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		04EE30DE17557F960038817B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FlickrApp/FlickrApp-Prefix.pch";
+				INFOPLIST_FILE = "FlickrApp/FlickrApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		04EE30DF17557F960038817B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FlickrApp/FlickrApp-Prefix.pch";
+				INFOPLIST_FILE = "FlickrApp/FlickrApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04EE30BB17557F960038817B /* Build configuration list for PBXProject "FlickrApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04EE30DB17557F960038817B /* Debug */,
+				04EE30DC17557F960038817B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04EE30DD17557F960038817B /* Build configuration list for PBXNativeTarget "FlickrApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04EE30DE17557F960038817B /* Debug */,
+				04EE30DF17557F960038817B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04EE30B817557F960038817B /* Project object */;
+}
